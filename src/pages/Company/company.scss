@@ -1,0 +1,128 @@
+.company {
+  text-align: center;
+
+  .cover-container {
+    &.site-cover {
+      margin: 0;
+      margin-right: 0px;
+      margin-left: 0px;
+      background: url(../../assests/image/company-bg.jpg);
+      background-repeat: repeat;
+      background-size: auto;
+      background-repeat: repeat;
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .header-section {
+      height: 62px;
+    }
+
+    .main-section {
+      min-height: 100vh;
+      margin-top: 60px;
+      .section {
+
+        &.home-banner1 {
+          height: calc(100vh - 62px);
+          display: flex;
+          align-items: center;
+
+          .home-banner {
+            .container {
+              max-width: 1024px;
+
+              h1 {
+                font-size: 50px;
+                font-weight: 300;
+                color: #ffffff;
+                line-height: 70px;
+              }
+
+              .lead {
+                font-size: 30px;
+                color: #ffffff;
+                font-weight: 300;
+                margin-bottom: 10px;
+                line-height: 1.8;
+              }
+
+            }
+
+            .request-demo1 {
+              .btn {
+                width: 300px;
+                background-color: #03A9F4 !important;
+                height: 50px;
+                border: 1px solid #2196F3 !important;
+                color: #ffffff !important;
+                border-radius: 0.3rem;
+              }
+
+              &:hover {
+                width: 300px;
+                background-color: #0f2376 !important;
+                height: 50px;
+                border: 1px solid #0f2376 !important;
+              }
+
+              a {
+                color: #ffffff;
+                text-decoration: none;
+                background-color: transparent;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  .footer-section {
+    color: rgb(255, 255, 255);
+    background: rgb(27, 30, 62);
+    padding: 50px 0;
+    text-align: left;
+    display: block;
+    width: 100%;
+    position: relative;
+
+    .container {
+      max-width: 1024px;
+
+      ul {
+        li {
+          text-align: left;
+
+          a {
+            color: white;
+            text-decoration: none;
+            font-weight: 300;
+            font-size: 13px;
+          }
+        }
+      }
+
+      .content {
+        .text-left {
+          text-align: left !important;
+
+          p {
+            font-weight: 300;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1024px;
+  }
+}

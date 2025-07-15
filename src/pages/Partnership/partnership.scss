@@ -1,0 +1,46 @@
+.partnership {
+  .cover-container {
+    &.site-cover {
+      margin: 0;
+      margin-right: 0px;
+      margin-left: 0px;
+      background: url(../../assests/image/company-bg.jpg);
+      background-repeat: repeat;
+      background-size: auto;
+      background-repeat: repeat;
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .main-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin-top: 60px;
+      .mt-50 {
+        margin-top: 50px;
+        max-width: 1024px;
+      }
+
+      .content {
+        text-align: left;
+
+        h3 {
+          font-weight: 500;
+          font-size: 2rem !important;
+          color: white;
+        }
+
+        p {
+          color: #fff;
+          font-size: 20px;
+          line-height: 1.8;
+        }
+      }
+    }
+  }
+
+
+}
