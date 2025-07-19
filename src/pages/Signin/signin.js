@@ -20,7 +20,7 @@ function SignIn() {
                    <label class="required1" for="">Password</label>
                    <input autocomplete="false" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="password" id="login_password" type="password" title="Password" placeholder="Password" />
                 </div>
-                <div class="checkbox mb-4 mt-4"><label class="control control-solid control-solid-primary control--checkbox">Remember me <input id="rememberPassword" name="rememberPassword" type="checkbox" unchecked="checked" class="ng-untouched ng-pristine ng-valid"/>
+                <div class="checkbox mb-4 mt-4 d-flex justify-content-between"><label class="control control-solid control-solid-primary control--checkbox">Remember me <input id="rememberPassword" name="rememberPassword" type="checkbox" unchecked="checked" class="ng-untouched ng-pristine ng-valid"/>
                 <span class="control__indicator"></span></label><a class="float-right " href="/auth/reset-password" translate="">Forgot Password ?</a></div>
                 <button class="btn btn-lg btn-primary btn-block" translate="" type="submit">Sign In</button>
                 <div class="mt-4 text-center font-16"><span _ngcontent-c2=""> Don't have an account yet ? </span><a class="" href="/auth/signup">Sign Up</a></div>
